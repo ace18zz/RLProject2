@@ -1,14 +1,9 @@
 # This is a sample Python script.
 
 import gym
-import ale_py.roms as roms
-
-
-#https://stackoverflow.com/questions/69442971/error-in-importing-environment-openai-gym/69443797#69442971
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print(roms.__all__)
     env = gym.make('ALE/Tennis-v5',
                    obs_type='rgb',  # ram | rgb | grayscale
                    frameskip=5,  # frame skip
